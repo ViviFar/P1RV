@@ -245,6 +245,7 @@ void clavier(unsigned char key, int xx, int yy) {
 			player.updateInvincible();
 			compteurInvincibilite = 0;
 		  }
+		  break;
 		  // R pour relancer le jeu si l'on a gagné ou perdu
 	  case 'r':
 	  case 'R':
